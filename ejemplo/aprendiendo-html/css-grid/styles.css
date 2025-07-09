@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.grid-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 1fr));   
+    /* Crea columnas de al menos 120px, llenando el espacio disponible */
+    grid-template-rows: repeat(2, minmax(120px, 1fr));  
+    /* Crea filas de al menos 120px, llenando el espacio disponible */
+    grid-gap: 15px; /* Espacio entre las cajas */
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo de la cuadrícula */ 
+    border: 2px solid #ccc; /* Borde de la cuadrícula */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar profundidad */
+    align-items: center; /* Alinea los elementos en el centro verticalmente */
+    justify-items: center; /* Alinea los elementos en el centro horizontalmente */  
+}
+.caja{
+    border: 1px solid rgb(83, 78, 78);
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 150px;
+    text-align: center;
+    margin: 15px;
+}
