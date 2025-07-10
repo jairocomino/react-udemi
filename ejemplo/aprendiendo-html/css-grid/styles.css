@@ -16,7 +16,7 @@ body{
     padding: 20px;
     background-color: #f4f4f4; /* Fondo de la cuadrícula */ 
     border: 2px solid #ccc; /* Borde de la cuadrícula */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para dar profundidad */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
     align-items: center; /* Alinea los elementos en el centro verticalmente */
     justify-items: center; /* Alinea los elementos en el centro horizontalmente */  
 }
