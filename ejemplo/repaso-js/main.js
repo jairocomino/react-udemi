@@ -54,8 +54,16 @@
             console.log("Número: " + i);
             i++;
         } 
-        
 
+        numeros.array.forEach(element => {
+            console.log("Elemento del arreglo: " + element);
+        });
+
+        numeros.map(element => {
+            console.log("Elemento del arreglo mapeado: " + element);
+        });
+
+        // Manipulación del DOM        
 let contenido= "nombre: " + nombre + "<br>" +
               "edad: " + edad + "<br>" ;
 let datos = document.getElementById("datos");
