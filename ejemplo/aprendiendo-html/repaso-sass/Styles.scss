@@ -1,0 +1,41 @@
+@use 'anidacion';
+///importaciones
+
+
+///variables
+/// 
+
+$color-fondo-principal: #76d4c6;
+/// $color-fondo-principal: #76d4c6;
+$color-texto-principal: #333;
+// $color-texto-principal: #333;
+$familia-fuente-principal: Arial, sans-serif;
+// $familia-fuente-principal: Arial, sans-serif;
+
+
+
+
+
+body{
+    background-color: $color-fondo-principal;
+    font-family: $familia-fuente-principal;
+    color: $color-texto-principal;
+    }
+   
+///mixins
+@mixin caja-estilo($color-fondo, $color-texto){
+    background-color: $color-fondo;
+    color: $color-texto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ .caja{
+        @include caja-estilo(rgb(190, 103, 212),blue);
+    }
+
+
+///operadores
+ .caja{
+    width: 400px + 100px;
+ }

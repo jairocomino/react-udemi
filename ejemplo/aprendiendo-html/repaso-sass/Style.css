@@ -1,0 +1,25 @@
+.caja h2 {
+  color: #b6ec5f;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: #76d4c6;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.caja {
+  background-color: rgb(190, 103, 212);
+  color: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.caja {
+  width: 500px;
+}
+
+/*# sourceMappingURL=Style.css.map */
