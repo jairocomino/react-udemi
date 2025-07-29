@@ -1,0 +1,11 @@
+1. crea un ComponeteEjemplo
+2. Recibe una prp con el año actual
+3.Ojo, usar funciones para sacar el Año
+4. Usar estados y eventos para tener dos botones
+    - Pasar al proximo año
+    -Ir al año anterio
+    -Mostraar en todo moento el año+
+
+5.validar que el año sea un numero y que sea requerido (prop)
+
+6.Cambiar el año mediante un imput de texto y que se cambie dinamicamente

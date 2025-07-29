@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.label {
+  
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: bold;
+}
+.label-green {
+  background-color: lightgreen;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+  color : black;
+  font-weight: bold;
+}
+
+.siguiente {
+  background-color: lightblue;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: bold;
+}
+.siguiente:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+
+.anterior {
+  background-color: lightcoral;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: bold;
+}
+.anterior:hover {
+  background-color: crimson;
+  cursor: pointer;
+}
