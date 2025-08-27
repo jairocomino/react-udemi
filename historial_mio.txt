@@ -1,0 +1,16 @@
+cd
+cd Desktop/
+cd symfony/
+	symfony new symfony
+symfony new symfony
+hp bin/console doctrine:schema:update --force
+php bin/console doctrine:schema:update --force
+composer require tattali/calendar-bundle
+01~
+composer require tattali/calendar-bundle
+cd almacen/
+php bin/console make:crud Recurso
+php bin/console make:crud Trabajo
+php bin/console make:crud Albaran
+symfony serve
+symfony serve

@@ -43,7 +43,7 @@ const AjaxComponent = () => {
         const getUsuarios =  () => {
             setTimeout(async() => {
                 try {
-                    // const data = await traerData("https://reqres.in/api/users?page=2");
+                    // const data = await traerData("https://reqres.in/api/users?page=2"); esta línea es correcta
                      const data = await traerData("https://reqres.in/api/users?page=2u");
                         // Si la API devuelve un objeto con la propiedad "data", accede a ella
                         setUsuarios(data && data.data ? data.data : []);
