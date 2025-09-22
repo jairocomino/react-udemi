@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { guardarEnEstorage } from '../helpers/guardarEnEstoraje';
 
-const Crear = () => {
+const Crear = ({setPeliculas}) => {
   const tituloComp = "Añadir Pelicula";
 
    const [pelicula, setPelicula] = useState({
@@ -26,8 +26,11 @@ const Crear = () => {
     };
     // Actualizar el estado
     setPelicula(peliculaObj);
+    // Actualizar el estado del listado principal
+    setPeliculas(elementos=>{ return[...elementos, peliculaObj]});
     // Guardar en el localstorage
     guardarEnEstorage(peliculaObj,"pelis");
+
     // Resetear el formulario
     e.target.reset();
    

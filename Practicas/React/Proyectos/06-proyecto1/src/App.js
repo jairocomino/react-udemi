@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Listado from './components/Listado';
 import Buscador from './components/Buscador';
 import Crear from './components/Crear';
 
 function App() {
+const [peliculas, setPeliculas] = useState([])
+
+
+
+
+
   return (
     <>
       <div className="layaut">
@@ -28,7 +34,7 @@ function App() {
         {/* Main Content Section */}
         <section className="content">
           {/* LISTADO DE PELICULAS */}
-            <Listado />
+            <Listado peliculas={peliculas} setPeliculas={setPeliculas}/>
         </section>
 
         {/* Sidebar Section */}
@@ -37,7 +43,7 @@ function App() {
              <Buscador />
 
           {/* AÑADIR PELICULA */}
-          <Crear />
+          <Crear setPeliculas={setPeliculas} />
         </aside>
 
         {/* Footer Section */}
