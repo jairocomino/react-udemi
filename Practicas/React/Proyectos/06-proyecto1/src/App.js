@@ -40,7 +40,7 @@ const [peliculas, setPeliculas] = useState([])
         {/* Sidebar Section */}
         <aside className="lateral">
           {/* BUSCADOR */}
-             <Buscador />
+             <Buscador peliculas={peliculas}  setPeliculas={setPeliculas} />
 
           {/* AÑADIR PELICULA */}
           <Crear setPeliculas={setPeliculas} />

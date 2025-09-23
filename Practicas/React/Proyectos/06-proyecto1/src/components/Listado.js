@@ -49,7 +49,7 @@ useEffect(() => {
             <button className="delete" onClick={ ()=>handledEliminar(peli.id)}>Eliminar</button>
               {/* Formulario de edicion    */ }
               {editar === peli.id && (
-                  <EditarPeli />              
+                  <EditarPeli peli={peli} setEditar={setEditar}  setPeliculas={setPeliculas} conseguirPeliculas={conseguirPeliculas} />              
               )}
 
           </article>);
